@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-09T15:49:37 GMT-12:00" name="Suite" finished-at="2023-01-09T15:49:37 GMT-12:00" duration-ms="125">
+  <suite name="Default suite" duration-ms="92" started-at="2023-02-08T12:51:28 GMT-12:00" finished-at="2023-02-08T12:51:28 GMT-12:00">
     <groups>
     </groups>
-    <test started-at="2023-01-09T15:49:37 GMT-12:00" name="practTest.xml" finished-at="2023-01-09T15:49:37 GMT-12:00" duration-ms="125">
-      <class name="xmlParameterization.Practice">
-        <test-method signature="pract(org.testng.xml.XmlTest)[pri:0, instance:xmlParameterization.Practice@53aac487]" started-at="2023-01-09T15:49:37 GMT-12:00" name="pract" finished-at="2023-01-09T15:49:37 GMT-12:00" duration-ms="20" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.xml.XmlTest@ad42e869]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="92" started-at="2023-02-08T12:51:28 GMT-12:00" finished-at="2023-02-08T12:51:28 GMT-12:00">
+      <class name="timeOutsInTestNg.TimeOuts">
+        <test-method status="PASS" signature="ByUsingTimeoutsToFailTC()[pri:0, instance:timeOutsInTestNg.TimeOuts@7cbd213e]" name="ByUsingTimeoutsToFailTC" duration-ms="11" started-at="2023-02-08T12:51:28 GMT-12:00" finished-at="2023-02-08T12:51:28 GMT-12:00">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pract -->
-      </class> <!-- xmlParameterization.Practice -->
-    </test> <!-- practTest.xml -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- ByUsingTimeoutsToFailTC -->
+      </class> <!-- timeOutsInTestNg.TimeOuts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

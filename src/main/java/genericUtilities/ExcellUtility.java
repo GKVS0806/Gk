@@ -23,7 +23,7 @@ public class ExcellUtility
 	private DataFormatter df;
 	private Sheet sheet;
 	/**
-	 * this method initialises excell workbook
+	 * this method initializes excel workbook
 	 * @param path
 	 */
 	public void excellInitialisation(String path)
