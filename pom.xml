@@ -26,8 +26,9 @@
 		</plugins>
 	</build>
 	</profile>
-		</profiles>
 		
+		<profile>
+	<id>Batch</id>
 	<build>
 		<plugins>
 			<plugin>
@@ -42,8 +43,8 @@
 			</plugin>
 		</plugins>
 	</build>
-
-
+</profile>
+</profiles>
 	
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
